@@ -1,4 +1,5 @@
 import footerBg from "../../assets/footer-bg.jpg";
+import footerLogo from "../../assets/footer-logo.png";
 import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
@@ -15,7 +16,7 @@ const Footer = () => {
         <div>
           <img
             className="h-[50px] w-[] "
-            src="/src/assets/footer-logo.png"
+            src={footerLogo}
             alt=""
           />
         </div>

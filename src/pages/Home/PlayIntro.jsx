@@ -1,11 +1,11 @@
-
+import playIntro from "../../assets/intro-image.png"
 
 
 const PlayIntro = () => {
   return (
     <div className=" flex justify-between max-w-5xl mx-auto">
       <div className="bg-[] mr-5 w-[200px]">
-        <img className="w-[200px] h-[200px]" src="/src/assets/intro-image.png" alt="" />
+        <img className="w-[200px] h-[200px]" src={playIntro} alt="" />
       </div>
       <div className="text-center  py-6">
         <h1 className="text-xl font-semibold">Our Opening Hours</h1>

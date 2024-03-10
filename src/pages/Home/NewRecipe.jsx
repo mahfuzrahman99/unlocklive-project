@@ -5,6 +5,14 @@ import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Navigation } from "swiper/modules";
 import RecipeDivOverly from "../../components/RecipeDivOverly";
+import Recipe1 from "../../assets/Burger-1.jpg";
+import Recipe2 from "../../assets/Drinks-1.jpg";
+import Recipe3 from "../../assets/Pizza-1.jpg";
+import Recipe4 from "../../assets/Dinner-1.jpg";
+import Recipe5 from "../../assets/Lunch-1.jpg";
+import Recipe6 from "../../assets/Cookies-1.jpg";
+import Recipe7 from "../../assets/Bakery-1.jpg";
+import Recipe8 from "../../assets/Creation-1.jpeg";
 
 const NewRecipe = () => {
   return (
@@ -46,7 +54,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper  group relative">
             <img
               className="h-full w-full image image"
-              src="/src/assets/Burger-1.jpg"
+              src={Recipe1}
               alt=""
             />
             <RecipeDivOverly />
@@ -54,7 +62,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Drinks-1.jpg"
+              src={Recipe2}
               alt=""
             />
             <RecipeDivOverly />
@@ -62,7 +70,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Pizza-1.jpg"
+              src={Recipe3}
               alt=""
             />
             <RecipeDivOverly />
@@ -70,7 +78,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Dinner-1.jpg"
+              src={Recipe4}
               alt=""
             />
             <RecipeDivOverly />
@@ -78,7 +86,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Lunch-1.jpg"
+              src={Recipe5}
               alt=""
             />
             <RecipeDivOverly />
@@ -86,7 +94,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Cookies-1.jpg"
+              src={Recipe6}
               alt=""
             />
             <RecipeDivOverly />
@@ -94,7 +102,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper  group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Bakery-1.jpg"
+              src={Recipe7}
               alt=""
             />
             <RecipeDivOverly />
@@ -102,7 +110,7 @@ const NewRecipe = () => {
           <SwiperSlide className="Swiper group relative">
             <img
               className="h-full w-full image"
-              src="/src/assets/Creation-5.jpeg"
+              src={Recipe8}
               alt=""
             />
             <RecipeDivOverly />

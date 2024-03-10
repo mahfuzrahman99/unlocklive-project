@@ -1,4 +1,51 @@
 import { useState } from "react";
+import creation1 from "../../assets/Creation-1.jpeg"
+import creation2 from "../../assets/Creation-2.jpeg"
+import creation3 from "../../assets/Creation-3.jpeg"
+import creation4 from "../../assets/Creation-4.jpeg"
+import creation5 from "../../assets/Creation-5.jpeg"
+
+import burger1 from "../../assets/Burger-1.jpg"
+import burger2 from "../../assets/Burger-2.jpg"
+import burger3 from "../../assets/Burger-3.jpg"
+import burger4 from "../../assets/Burger-4.jpg"
+import burger5 from "../../assets/Burger-5.jpg"
+
+import drink1 from "../../assetsDrinks-1.jpg"
+import drink2 from "../../assetsDrinks-2.jpg"
+import drink3 from "../../assetsDrinks-3.jpg"
+import drink4 from "../../assetsDrinks-4.jpg"
+import drink5 from "../../assetsDrinks-5.jpg"
+
+import pizza1 from "../../assets/Pizza-1.jpg"
+import pizza2 from "../../assets/Pizza-2.jpg"
+import pizza3 from "../../assets/Pizza-3.jpg"
+import pizza4 from "../../assets/Pizza-4.jpg"
+import pizza5 from "../../assets/Pizza-5.jpg"
+
+import dinner1 from "../../assets/Dinner-1.jpg"
+import dinner2 from "../../assets/Dinner-2.jpg"
+import dinner3 from "../../assets/Dinner-3.jpg"
+import dinner4 from "../../assets/Dinner-4.jpg"
+import dinner5 from "../../assets/Dinner-5.jpg"
+
+import lunch1 from "../../assets/Lunch-1.jpg"
+import lunch2 from "../../assets/Lunch-2.jpg"
+import lunch3 from "../../assets/Lunch-3.jpg"
+import lunch4 from "../../assets/Lunch-4.jpg"
+import lunch5 from "../../assets/Lunch-5.jpg"
+
+import cookies1 from "../../assets/Cookies-1.jpg"
+import cookies2 from "../../assets/Cookies-2.jpg"
+import cookies3 from "../../assets/Cookies-3.jpg"
+import cookies4 from "../../assets/Cookies-4.jpg"
+import cookies5 from "../../assets/Cookies-5.jpg"
+
+import bakery1 from "../../assets/Bakery-1.jpg"
+import bakery2 from "../../assets/Bakery-2.jpg"
+import bakery3 from "../../assets/Bakery-3.jpg"
+import bakery4 from "../../assets/Bakery-4.jpg"
+import bakery5 from "../../assets/Bakery-5.jpg"
 
 const NewCreations = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -89,35 +136,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Creation-1.jpeg"
+                src={creation1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-8">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Creation-2.jpeg"
+                src={creation2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Creation-3.jpeg"
+                src={creation3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Creation-4.jpeg"
+                src={creation4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Creation-5.jpeg"
+                src={creation5}
                 alt=""
               />
             </div>
@@ -128,35 +175,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Burger-1.jpg"
+                src={burger1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Burger-2.jpg"
+                src={burger2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Burger-3.jpg"
+                src={burger3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Burger-4.jpg"
+                src={burger4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-2">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Burger-5.jpg"
+                src={burger5}
                 alt=""
               />
             </div>
@@ -167,35 +214,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Drinks-1.jpg"
+                src={drink1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Drinks-2.jpg"
+                src={drink2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Drinks-3.jpg"
+                src={drink3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Drinks-4.jpg"
+                src={drink4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-7">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Drinks-5.jpg"
+                src={drink5}
                 alt=""
               />
             </div>
@@ -206,35 +253,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-7">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Pizza-1.jpg"
+                src={pizza1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Pizza-2.jpg"
+                src={pizza2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Pizza-3.jpg"
+                src={pizza3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Pizza-4.jpg"
+                src={pizza4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Pizza-5.jpg"
+                src={pizza5}
                 alt=""
               />
             </div>
@@ -245,35 +292,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Dinner-1.jpg"
+                src={dinner1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-8">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Dinner-2.jpg"
+                src={dinner2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Dinner-3.jpg"
+                src={dinner3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Dinner-4.jpg"
+                src={dinner4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Dinner-5.jpg"
+                src={dinner5}
                 alt=""
               />
             </div>
@@ -284,35 +331,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-9">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Lunch-1.jpg"
+                src={lunch1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Lunch-2.jpg"
+                src={lunch2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Lunch-3.jpg"
+                src={lunch3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Lunch-4.jpg"
+                src={lunch4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Lunch-5.jpg"
+                src={lunch5}
                 alt=""
               />
             </div>
@@ -323,35 +370,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Cookies-1.jpg"
+                src={cookies1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Cookies-2.jpg"
+                src={cookies2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Cookies-3.jpg"
+                src={cookies3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-7">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Cookies-4.jpg"
+                src={cookies4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Cookies-5.jpg"
+                src={cookies5}
                 alt=""
               />
             </div>
@@ -362,35 +409,35 @@ const NewCreations = () => {
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Bakery-1.jpg"
+                src={bakery1}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Bakery-2.jpg"
+                src={bakery2}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Bakery-3.jpg"
+                src={bakery3}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Bakery-4.jpg"
+                src={bakery4}
                 alt=""
               />
             </div>
             <div className="rounded-lg col-span-9">
               <img
                 className="rounded-lg h-[250px] w-full"
-                src="/src/assets/Bakery-5.jpg"
+                src={bakery5}
                 alt=""
               />
             </div>

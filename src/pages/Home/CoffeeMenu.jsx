@@ -1,6 +1,8 @@
-
 import MenuCards from "../../components/MenuCards";
-
+import coffeeMenu1 from "../../assets/Coffee-menu-1.jpeg"
+import coffeeMenu2 from "../../assets/Coffee-menu-2.jpeg"
+import coffeeMenu3 from "../../assets/Coffee-menu-3.jpeg"
+import coffeeMenu4 from "../../assets/Coffee-menu-4.jpeg"
 
 
 const CoffeeMenu = () => {
@@ -14,10 +16,10 @@ const CoffeeMenu = () => {
                 </h1>
                 <p className="text-2xl font-bold text-center mt-3">Unlocklive Coffee Menu</p>
                 <div className="grid grid-cols-2 gap-3 my-6">
-                    <MenuCards menuImg="/src/assets/Coffee-menu-1.jpeg" menuTitle="Double Espresso x2" dolorBg="#86371C" dolorText="#fff" BRColor="#E9E7E6"/>
-                    <MenuCards menuImg="/src/assets/Coffee-menu-2.jpeg" menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
-                    <MenuCards menuImg="/src/assets/Coffee-menu-3.jpeg" menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
-                    <MenuCards menuImg="/src/assets/Coffee-menu-4.jpeg" menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
+                    <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg="#86371C" dolorText="#fff" BRColor="#E9E7E6"/>
+                    <MenuCards menuImg={coffeeMenu2} menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
+                    <MenuCards menuImg={coffeeMenu3} menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
+                    <MenuCards menuImg={coffeeMenu4} menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
                 </div>
                 <div className="flex justify-center mb-12">
                     <button className="text-xs border text-[#86371C] font-semibold border-[#86371C] p-2 rounded-md">View All Menu</button>

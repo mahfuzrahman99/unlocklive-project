@@ -1,5 +1,5 @@
 // import { TbArrowRightCircle } from "react-icons/tb";
-
+import chooseUs from "../../assets/choos-us.jpeg"
 import ArrowSymble from "../../components/ArrowSymble";
 
 const Perfection = () => {
@@ -47,7 +47,7 @@ const Perfection = () => {
       <div>
         <img
           className="h-[350px] w-[380px] rounded-md"
-          src="/src/assets/choos-us.jpeg"
+          src={chooseUs}
           alt=""
         />
       </div>

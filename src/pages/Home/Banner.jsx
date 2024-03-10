@@ -16,7 +16,6 @@ const Banner = () => {
       <Swiper pagination={true} modules={[Pagination]} loop={Infinity}  className="mySwiper">
         <SwiperSlide>
           <BannerSwiper imgSrc={coffee1}/>
-          {/* <BannerSwiper imgSrc={"/src/assets/Coffee_1.png"}/> */}
         </SwiperSlide>
         <SwiperSlide>
           <BannerSwiper imgSrc={coffee2}/>
