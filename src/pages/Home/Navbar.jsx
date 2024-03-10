@@ -1,6 +1,7 @@
 import { IoIosArrowDown, IoIosSearch } from "react-icons/io";
 import { CiHeart, CiUser } from "react-icons/ci";
 import { MdOutlineShoppingCart } from "react-icons/md";
+import navLogo from "../../assets/Navbar-Logo.png"
 
 const Navbar = () => {
   return (
@@ -72,7 +73,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">
-        <img src="/src/assets/Navbar-Logo.png" alt="" />
+        <img src={navLogo} alt="" />
       </div>
       <div className="navbar-end flex gap-14">
         <div>
