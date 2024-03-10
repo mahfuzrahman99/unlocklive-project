@@ -1,5 +1,8 @@
 /* eslint-disable react/prop-types */
 import '../components/CSS/banner.css';
+import bannerCoffee1 from "../assets/banner-coffee-1.jpg"
+import bannerCoffee2 from "../assets/banner-coffee-2.jpg"
+import bannerCoffee3 from "../assets/banner-coffee-3.jpg"
 
 const BannerSwiper = ({imgSrc}) => {
     return (
@@ -28,21 +31,21 @@ const BannerSwiper = ({imgSrc}) => {
                       <div className="absolute left-0">
                         <img
                           className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
-                          src="/src/assets/banner-coffee-1.jpg"
+                          src={bannerCoffee1}
                           alt=""
                         />
                       </div>
                       <div className="absolute left-8">
                         <img
                           className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
-                          src="/src/assets/banner-coffee-2.jpg"
+                          src={bannerCoffee2}
                           alt=""
                         />
                       </div>
                       <div className="absolute left-16">
                         <img
                           className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
-                          src="/src/assets/banner-coffee-3.jpg"
+                          src={bannerCoffee3}
                           alt=""
                         />
                       </div>
