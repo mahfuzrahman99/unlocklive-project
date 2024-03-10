@@ -1,0 +1,11 @@
+.swiper-pagination-bullet-active {
+    background: #86371c !important;
+  }
+  .swiper-horizontal > .swiper-pagination-bullets,
+  .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: 80px !important;
+    left: 160px !important;
+  }
+  .swiper-pagination {
+    text-align: start !important;
+  }

@@ -1,0 +1,27 @@
+.Swiper{
+    height: 300px ;
+    width: 200px ;
+    overflow: hidden;
+}
+.swiper-slide img{
+    border-radius: 12px!important;
+}
+
+.swiper-button-prev{
+    height: 50px !important;
+    width: 50px !important;
+    left: 20px !important;
+    bottom: 20px !important;
+    background-color: #86371C;
+    margin-bottom: 4px !important;
+    border-radius: 50%!important;
+    display: block;
+}
+.swiper-button-next{
+    height: 50px !important;
+    width: 50px !important;
+    left: 90px !important;
+    bottom: 20px !important;
+    background-color: #86371C;
+    border-radius: 50%!important;
+}
