@@ -104,6 +104,7 @@ const NewRecipe = () => {
             <RecipeDivOverly />
           </SwiperSlide>
         </Swiper>
+        
       </div>
     </div>
   );

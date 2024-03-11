@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 
 const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
+  console.log(dolorBg, BRColor)
   return (
     <div className="grid grid-cols-9 items-center gap-[6px] p-2 border-2 rounded-md">
       <div>
@@ -21,7 +22,8 @@ const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
       </div>
       <div className="mt-[7px] flex justify-center">
         <span
-          className={`bg-[${dolorBg}] rounded-full p-1 py-[5px] text-[${dolorText}]  font-medium text-xs  text-center border-dashed border border-[${BRColor}] `}
+        style={{backgroundColor: `${dolorBg}`}}
+          className={` rounded-full p-1 py-[5px] text-[${dolorText}]  font-medium text-xs  text-center border-dashed border border-[${BRColor}] `}
         >
           $10
         </span>

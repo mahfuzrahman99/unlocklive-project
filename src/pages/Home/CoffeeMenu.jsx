@@ -21,8 +21,8 @@ const CoffeeMenu = () => {
           Unlocklive Coffee Menu
         </p>
         <div className="md:grid grid-cols-2 gap-3 my-6">
-          {/* <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg={`#86371C`} dolorText="#fff" BRColor="#e9e7e6"/> */}
-          <div className="grid grid-cols-9 items-center gap-[6px] p-2 border-2 rounded-md">
+          <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg={`#86371C`} dolorText="#fff" BRColor="#e9e7e6"/>
+          {/* <div className="grid grid-cols-9 items-center gap-[6px] p-2 border-2 rounded-md">
             <div>
               <img
                 className="h-[30px] md:h-[50px] w-[40px] md:w-[50px] rounded-full border border-dashed p-1 border-[#86371C]"
@@ -46,21 +46,24 @@ const CoffeeMenu = () => {
                 $10
               </span>
             </div>
-          </div>
+          </div> */}
           <MenuCards
             menuImg={coffeeMenu2}
+            key={coffeeMenu2}
             menuTitle="Double Espresso x2"
             dolorBg="#e9e7e6"
             BRColor="#86371C"
           />
           <MenuCards
             menuImg={coffeeMenu3}
+            key={coffeeMenu3}
             menuTitle="Double Espresso x2"
             dolorBg="#e9e7e6"
             BRColor="#86371C"
           />
           <MenuCards
             menuImg={coffeeMenu4}
+            key={coffeeMenu4}
             menuTitle="Double Espresso x2"
             dolorBg="#e9e7e6"
             BRColor="#86371C"
