@@ -12,7 +12,8 @@ import Recipe4 from "../../assets/Dinner-1.jpg";
 import Recipe5 from "../../assets/Lunch-1.jpg";
 import Recipe6 from "../../assets/Cookies-1.jpg";
 import Recipe7 from "../../assets/Bakery-1.jpg";
-import Recipe8 from "../../assets/Creation-1.jpeg";
+import Recipe8 from "../../assets/Creation-5.jpeg";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
 
 const NewRecipe = () => {
   return (
@@ -24,7 +25,9 @@ const NewRecipe = () => {
           ></span>
           <span className="text-[#86371C] text-xs">New Recipes</span>
         </p>
-        <p className="text-xl md:text-3xl font-bold my-4">Taste Our New Recipe</p>
+        <p className="text-xl md:text-3xl font-bold my-4">
+          Taste Our New Recipe
+        </p>
         <p className="text-xs">
           Malesuada cursus a tincidunt volutpat posuere lacinia. Congue <br />
           malesuada lacus pharetra ut vel amet. Amet turpis suspendisse
@@ -40,88 +43,64 @@ const NewRecipe = () => {
           <br /> injected humour, or randomised words which don&apos;t look
           <br /> slightly believable.
         </p>
+        <div className=" items-center gap-5 hidden md:flex">
+          <p className="p-2 rounded-full border border-[#341914] text-[#341914] ">
+            <FaArrowLeft />
+          </p>
+          <p className="p-2 rounded-full border  border-[#341914] text-[#341914]">
+            <FaArrowRight />
+          </p>
+        </div>
       </div>
-      <div className="col-span-2 md:ml-4">
+      <div className="col-span-2 md:ml-4 rounded-md">
         <Swiper
-          spaceBetween={30}
+          spaceBetween={10}
           navigation={true}
           loop={Infinity}
           freeMode={true}
           modules={[FreeMode, Navigation]}
-          className="mySwiper"
+          className="mySwiper  rounded-md"
           breakpoints={{
             // When window width is >= 768px
             768: {
-              slidesPerView: 1
+              slidesPerView: 1,
             },
             // When window width is >= 1024px
             1024: {
-              slidesPerView: 3
-            }
+              slidesPerView: 3,
+            },
           }}
         >
           <SwiperSlide className="Swiper  group relative">
-            <img
-              className="h-full w-full image image"
-              src={Recipe1}
-              alt=""
-            />
+            <img className="h-full w-full image image" src={Recipe1} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe2}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe2} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe3}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe3} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe4}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe4} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe5}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe5} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe6}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe6} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper  group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe7}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe7} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
           <SwiperSlide className="Swiper group relative">
-            <img
-              className="h-full w-full image"
-              src={Recipe8}
-              alt=""
-            />
+            <img className="h-full w-full image" src={Recipe8} alt="" />
             <RecipeDivOverly />
           </SwiperSlide>
         </Swiper>

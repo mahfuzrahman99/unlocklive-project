@@ -1,6 +1,7 @@
 .Swiper{
-    height: 300px ;
-    width: 200px ;
+    height: 330px ;
+    width: 220px !important;
+    margin-right: 10px !important;
     overflow: hidden;
 }
 .swiper-slide img{
