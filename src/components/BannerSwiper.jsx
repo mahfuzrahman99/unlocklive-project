@@ -20,31 +20,31 @@ const BannerSwiper = ({imgSrc}) => {
                   Epicurean, we take pride in curating an exceptional coffee
                   experience that transcends the ordinary.
                 </p>
-                <div className="flex gap-5 items-center py-6">
+                <div className="flex gap-8 items-center py-6">
                   <div>
                     <button className="text-white bg-[#86371c] p-2 rounded-md text-[8px] font-bold">
                       EXPLORE OUR MENU
                     </button>
                   </div>
-                  <div className="">
-                    <div className="relative">
-                      <div className="absolute left-0">
+                  <div className=" flex justify-center">
+                    <div className="flex items-center">
+                      <div className=" -translate-x-3">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
+                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
                           src={bannerCoffee1}
                           alt=""
                         />
                       </div>
-                      <div className="absolute left-8">
+                      <div className="-translate-x-5">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
+                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
                           src={bannerCoffee2}
                           alt=""
                         />
                       </div>
-                      <div className="absolute left-16">
+                      <div className="-translate-x-8">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] rounded-full"
+                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
                           src={bannerCoffee3}
                           alt=""
                         />

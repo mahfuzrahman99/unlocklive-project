@@ -82,7 +82,7 @@ const Navbar = () => {
       <div className="navbar-center hidden lg:flex">
         <img src={navLogo} alt="" />
       </div>
-      <div className="navbar-end flex gap-14">
+      <div className="navbar-end flex gap-5 md:gap-14">
         <div>
           <ul className="flex gap-3">
             <li className=" text-2xl">
@@ -108,7 +108,7 @@ const Navbar = () => {
         </div>
         <div className="flex items-center gap-1">
           <span className="text-white font-bold bg-black p-[3px] rounded-full"><CiUser /></span>
-          <p className=" text-xs font-bold">SIGN IN</p>
+          <p className="text-xs font-bold">SIGN IN</p>
         </div>
       </div>
     </div>

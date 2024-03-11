@@ -1,4 +1,6 @@
 import { useState } from "react";
+import "../../components/CSS/Creation.css"
+
 import creation1 from "../../assets/Creation-1.jpeg"
 import creation2 from "../../assets/Creation-2.jpeg"
 import creation3 from "../../assets/Creation-3.jpeg"
