@@ -29,23 +29,30 @@ const Navbar = () => {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Item 1</a>
+              <a>HOME</a>
             </li>
             <li>
-              <a>Item 1</a>
+              <a className="flex items-center">
+                <span>PAGES</span>{" "}
+                <span className="text-lg">
+                  <IoIosArrowDown />
+                </span>
+              </a>
             </li>
             <li>
-              <a>Item 1</a>
+              <a className="flex items-center">
+                <span>MENU</span>{" "}
+                <span className="text-lg">
+                  <IoIosArrowDown />
+                </span>
+              </a>
             </li>
             <li>
-              <a>Item 1</a>
-            </li>
-            <li>
-              <a>Item 1</a>
+              <a>CONTACT US</a>
             </li>
           </ul>
         </div>
-        <div>
+        <div className="hidden lg:flex">
           <ul className="flex gap-6 text-xs font-bold">
             <li>
               <a>HOME</a>

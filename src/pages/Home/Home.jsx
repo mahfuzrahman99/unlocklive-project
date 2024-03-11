@@ -14,22 +14,22 @@ const Home = () => {
             <div className="max-w-5xl mx-auto">
                 <Navbar/>
             </div>
-            <div>
+            <div className="px-2 md:px-0">
                 <Banner/>
             </div>
-            <div className="bg-[#fffaf2] h-[130px] mb-[130px]">
+            <div className="bg-[#fffaf2] md:h-[130px] mb-[130px] px-2 md:px-0">
                 <PlayIntro/>
             </div>
-            <div className="max-w-5xl mx-auto mb-20">
+            <div className="max-w-5xl mx-auto mb-8 md:mb-20 px-2 md:px-0">
                 <Perfection/>
             </div>
-            <div className="max-w-5xl mx-auto mb-20">
+            <div className="max-w-5xl mx-auto mb-8 md:mb-20 px-2 md:px-0">
                 <CoffeeMenu/>
             </div>
-            <div className="bg-[#fffaf2] py-10 mb-20">
+            <div className="bg-[#fffaf2] py-4 md:py-10 mb-8 md:mb-20 px-2 md:px-0">
                 <NewRecipe/>
             </div>
-            <div className="max-w-5xl mx-auto mb-20">
+            <div className="max-w-5xl mx-auto mb-8 md:mb-20 px-2 md:px-0">
                 <NewCreations/>
             </div>
             <div>

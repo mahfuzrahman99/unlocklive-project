@@ -7,11 +7,11 @@ import bannerCoffee3 from "../assets/banner-coffee-3.jpg"
 const BannerSwiper = ({imgSrc}) => {
     return (
         <div className=" border-t-2">
-            <div className="flex gap-6 items-center ml-20 border-l-2 pb-16">
-              <div className="max-w-[550px] space-y-4 pl-20">
-                <p className="text-sm font-bold">WELCOME TO OUR</p>
-                <p className="text-[50px] font-bold">Unlocklive</p>
-                <p className="text-2xl font-bold">
+            <div className="md:flex gap-6 items-center ml-6 md:ml-20 border-l-2 pb-4 md:pb-16">
+              <div className="max-w-[550px] space-y-4 pl-6 md:pl-20">
+                <p className="text-[10px] md:text-sm font-bold">WELCOME TO OUR</p>
+                <p className="text-xl md:text-[50px] font-bold">Unlocklive</p>
+                <p className="text-lg md:text-2xl font-bold">
                   Elevating Your Coffee Experience
                 </p>
                 <p className="text-xs font-medium">
@@ -57,7 +57,7 @@ const BannerSwiper = ({imgSrc}) => {
                   </div>
                 </div>
               </div>
-              <div>
+              <div className='hidden lg:block'>
                 <img
                   className="h-[450px] mr-10 mt-8"
                   src={imgSrc}

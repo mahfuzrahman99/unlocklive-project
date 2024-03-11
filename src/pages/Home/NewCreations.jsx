@@ -71,7 +71,7 @@ const NewCreations = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div role="tablist" className="tabs tabs-lifted">
+        <div role="tablist" className="tabs tabs-lifted overflow-x-auto "  style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "-moz-scrollbars-none" }}>
           <a
             role="tab"
             className={`tab ${activeTab === 1 ? "tab-active" : ""}`}
@@ -132,7 +132,7 @@ const NewCreations = () => {
       </div>
       <div className="mt-4">
         {activeTab === 1 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -171,7 +171,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 2 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -210,7 +210,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 3 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -249,7 +249,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 4 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-7">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -288,7 +288,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 5 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -327,7 +327,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 6 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-9">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -366,7 +366,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 7 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -405,7 +405,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 8 && (
-          <div className="grid grid-cols-12 gap-3">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2">
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"

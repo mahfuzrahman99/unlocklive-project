@@ -4,7 +4,7 @@ import ArrowSymble from "../../components/ArrowSymble";
 
 const Perfection = () => {
   return (
-    <div className="flex gap-5 justify-between items-center">
+    <div className="md:flex gap-5 justify-between items-center">
       <div className="space-y-3">
         <div className="flex items-center gap-1 text-[#86371C]">
           <span className="text-xl">
@@ -13,7 +13,7 @@ const Perfection = () => {
           </span>
           <p className=" text-xs">Why Choose Us</p>
         </div>
-        <p className="text-3xl font-bold">
+        <p className="text-xl md:text-3xl font-bold">
           Choosing Unlocklive, A Taste of <br /> Perfection
         </p>
         <p className="text-xs">
@@ -21,15 +21,15 @@ const Perfection = () => {
           beans into a <br /> symphony of aromatic notes and rich flavors.
         </p>
         <div className="flex gap-3 items-center text-center my-3">
-          <div className="border-2 rounded-lg p-3 px-7">
+          <div className="border-2 rounded-lg p-3 px-2 md:px-7">
             <h1 className="text-3xl font-bold">20+</h1>
             <p className=" text-xs">Years Experience</p>
           </div>
-          <div className="border-2 rounded-lg p-3 px-7">
+          <div className="border-2 rounded-lg p-3 px-2 md:px-7">
             <h1 className="text-3xl font-bold">100+</h1>
             <p className=" text-xs">Master Chefs</p>
           </div>
-          <div className="border-2 rounded-lg p-3 px-7">
+          <div className="border-2 rounded-lg p-3 px-2 md:px-7">
             <h1 className="text-3xl font-bold">30+</h1>
             <p className=" text-xs">Achievements</p>
           </div>
@@ -44,7 +44,7 @@ const Perfection = () => {
           </button>
         </div>
       </div>
-      <div>
+      <div className="hidden md:block">
         <img
           className="h-[350px] w-[380px] rounded-md"
           src={chooseUs}

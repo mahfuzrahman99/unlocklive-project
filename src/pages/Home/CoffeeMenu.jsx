@@ -15,7 +15,7 @@ const CoffeeMenu = () => {
                     <span className={`bg-gradient-to-r from-[#86371C] to-[#fff] h-1 w-10 rounded-lg`}></span>
                 </h1>
                 <p className="text-2xl font-bold text-center mt-3">Unlocklive Coffee Menu</p>
-                <div className="grid grid-cols-2 gap-3 my-6">
+                <div className="md:grid grid-cols-2 gap-3 my-6">
                     <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg="#86371C" dolorText="#fff" BRColor="#E9E7E6"/>
                     <MenuCards menuImg={coffeeMenu2} menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>
                     <MenuCards menuImg={coffeeMenu3} menuTitle="Double Espresso x2" dolorBg="#E9E7E6" BRColor="#86371C"/>

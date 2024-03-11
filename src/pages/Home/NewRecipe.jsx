@@ -16,7 +16,7 @@ import Recipe8 from "../../assets/Creation-1.jpeg";
 
 const NewRecipe = () => {
   return (
-    <div className="max-w-5xl mx-auto grid grid-cols-3 gap-3 ">
+    <div className="max-w-5xl mx-auto md:grid grid-cols-3 gap-3 ">
       <div className="col-span-1">
         <p className="flex gap-2 items-center font-semibold">
           <span
@@ -24,7 +24,7 @@ const NewRecipe = () => {
           ></span>
           <span className="text-[#86371C] text-xs">New Recipes</span>
         </p>
-        <p className="text-3xl font-bold my-4">Taste Our New Recipe</p>
+        <p className="text-xl md:text-3xl font-bold my-4">Taste Our New Recipe</p>
         <p className="text-xs">
           Malesuada cursus a tincidunt volutpat posuere lacinia. Congue <br />
           malesuada lacus pharetra ut vel amet. Amet turpis suspendisse
@@ -41,15 +41,24 @@ const NewRecipe = () => {
           <br /> slightly believable.
         </p>
       </div>
-      <div className="col-span-2 ml-4">
+      <div className="col-span-2 md:ml-4">
         <Swiper
-          slidesPerView={3}
           spaceBetween={30}
           navigation={true}
           loop={Infinity}
           freeMode={true}
           modules={[FreeMode, Navigation]}
           className="mySwiper"
+          breakpoints={{
+            // When window width is >= 768px
+            768: {
+              slidesPerView: 1
+            },
+            // When window width is >= 1024px
+            1024: {
+              slidesPerView: 3
+            }
+          }}
         >
           <SwiperSlide className="Swiper  group relative">
             <img

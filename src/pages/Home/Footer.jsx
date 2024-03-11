@@ -12,15 +12,15 @@ const Footer = () => {
         backgroundPosition: "center",
       }}
     >
-      <div className="max-w-5xl mx-auto py-5 md:flex justify-between items-center">
-        <div>
+      <div className="max-w-5xl mx-auto py-5 md:flex justify-between items-center space-y-2">
+        <div className="flex justify-center">
           <img
-            className="h-[50px] w-[] "
+            className="h-[30px] md:h-[50px] w-[] "
             src={footerLogo}
             alt=""
           />
         </div>
-        <div className="flex justify-center items-center gap-10 text-white mt-2">
+        <div className="flex justify-center items-center gap-5 md:gap-10 text-white mt-2">
             <p><a>Terms</a></p>
             <p><a>Policy</a></p>
             <p><a>Cookies</a></p>

@@ -3,7 +3,7 @@
   }
   .swiper-horizontal > .swiper-pagination-bullets,
   .swiper-pagination-bullets.swiper-pagination-horizontal {
-    bottom: 80px !important;
+    bottom: 120px !important;
     left: 160px !important;
   }
   .swiper-pagination {
