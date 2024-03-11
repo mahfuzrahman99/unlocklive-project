@@ -22,31 +22,6 @@ const CoffeeMenu = () => {
         </p>
         <div className="md:grid grid-cols-2 gap-3 my-6">
           <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg={`#86371C`} dolorText="#fff" BRColor="#e9e7e6"/>
-          {/* <div className="grid grid-cols-9 items-center gap-[6px] p-2 border-2 rounded-md">
-            <div>
-              <img
-                className="h-[30px] md:h-[50px] w-[40px] md:w-[50px] rounded-full border border-dashed p-1 border-[#86371C]"
-                src={coffeeMenu1}
-                alt=""
-              />
-            </div>
-            <div className="col-span-5">
-              <h1 className="text-md md:text-xl font-semibold">Double Espresso x2</h1>
-              <p className="text-[9px] md:text-xs">
-                There are many variations of passages Lorem <br /> Ipsum form
-              </p>
-            </div>
-            <div className="text-2xl col-span-2 text-[#d1d1d1]">
-              ...........<span className="hidden  md:inline">..........</span>
-            </div>
-            <div className="mt-[7px] flex justify-center">
-              <span
-                className={`bg-[#86371C] rounded-full p-1 py-[5px] text-[#fff]  font-medium text-xs  text-center border-dashed border border-[#e9e7e6] `}
-              >
-                $10
-              </span>
-            </div>
-          </div> */}
           <MenuCards
             menuImg={coffeeMenu2}
             key={coffeeMenu2}

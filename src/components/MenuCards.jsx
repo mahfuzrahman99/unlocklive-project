@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 
 const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
-  console.log(dolorBg, BRColor)
+  // console.log(dolorBg, BRColor)
   return (
     <div className="grid grid-cols-9 items-center gap-[6px] p-2 border-2 rounded-md">
       <div>
