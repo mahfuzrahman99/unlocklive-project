@@ -22,8 +22,8 @@ const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
       </div>
       <div className="mt-[7px] flex justify-center">
         <span
-        style={{backgroundColor: `${dolorBg}`}}
-          className={` rounded-full p-1 py-[5px] text-[${dolorText}]  font-medium text-xs  text-center border-dashed border border-[${BRColor}] `}
+        style={{backgroundColor: `${dolorBg}`, color: dolorText }}
+          className={` rounded-full p-1 py-[5px] font-medium text-xs  text-center border-dashed border border-[${BRColor}] `}
         >
           $10
         </span>

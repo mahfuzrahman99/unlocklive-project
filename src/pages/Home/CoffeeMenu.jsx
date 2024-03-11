@@ -21,7 +21,13 @@ const CoffeeMenu = () => {
           Unlocklive Coffee Menu
         </p>
         <div className="md:grid grid-cols-2 gap-3 my-6">
-          <MenuCards menuImg={coffeeMenu1} menuTitle="Double Espresso x2" dolorBg={`#86371C`} dolorText="#fff" BRColor="#e9e7e6"/>
+          <MenuCards
+            menuImg={coffeeMenu1}
+            menuTitle="Double Espresso x2"
+            dolorBg={`#86371C`}
+            dolorText="#fff"
+            BRColor="#e9e7e6"
+          />
           <MenuCards
             menuImg={coffeeMenu2}
             key={coffeeMenu2}
