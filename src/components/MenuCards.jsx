@@ -17,7 +17,7 @@ const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
         </p>
       </div>
       <div className="text-2xl col-span-2 text-[#d1d1d1]">
-        ...........<span className="hidden md:block">..........</span>
+        ...........<span className="hidden  md:inline">..........</span>
       </div>
       <div className="mt-[7px] flex justify-center">
         <span
