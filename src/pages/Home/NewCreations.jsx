@@ -132,9 +132,9 @@ const NewCreations = () => {
           </a>
         </div>
       </div>
-      <div className="mt-4">
+      <div className="mt-2">
         {activeTab === 1 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -173,7 +173,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 2 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -212,7 +212,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 3 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-3">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -251,7 +251,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 4 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-7">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -290,7 +290,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 5 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-4">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -329,7 +329,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 6 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-9">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -368,7 +368,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 7 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-6">
               <img
                 className="rounded-lg h-[250px] w-full"
@@ -407,7 +407,7 @@ const NewCreations = () => {
           </div>
         )}
         {activeTab === 8 && (
-          <div className="md:grid grid-cols-12 gap-3 space-y-2">
+          <div className="md:grid grid-cols-12 gap-3 space-y-2 md:space-y-0">
             <div className="rounded-lg col-span-5">
               <img
                 className="rounded-lg h-[250px] w-full"
