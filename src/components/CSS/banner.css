@@ -9,4 +9,7 @@
   .swiper-pagination {
     text-align: start !important;
   }
+  .swiper-slide .BImage{
+    border-radius: 100% !important;
+}
   

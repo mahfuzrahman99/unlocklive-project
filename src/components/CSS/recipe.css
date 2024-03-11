@@ -4,7 +4,7 @@
     margin-right: 10px !important;
     overflow: hidden;
 }
-.swiper-slide img{
+.swiper-slide .image{
     border-radius: 12px!important;
 }
 

@@ -28,23 +28,23 @@ const BannerSwiper = ({imgSrc}) => {
                   </div>
                   <div className=" flex justify-center">
                     <div className="flex items-center">
-                      <div className=" -translate-x-3">
+                      <div className=" translate-x-3">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
+                          className="h-10 w-10 border-2 border-[#D9D8D3] BImage" 
                           src={bannerCoffee1}
                           alt=""
                         />
                       </div>
-                      <div className="-translate-x-5">
+                      <div className="-translate-x-0">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
+                          className="h-10 w-10 border-2 border-[#D9D8D3] BImage" 
                           src={bannerCoffee2}
                           alt=""
                         />
                       </div>
-                      <div className="-translate-x-8">
+                      <div className="-translate-x-3">
                         <img
-                          className="h-10 w-10 border-2 border-[#D9D8D3] " 
+                          className="h-10 w-10 border-2 border-[#D9D8D3] BImage" 
                           src={bannerCoffee3}
                           alt=""
                         />
