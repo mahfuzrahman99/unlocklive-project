@@ -44,10 +44,10 @@ const NewRecipe = () => {
           <br /> slightly believable.
         </p>
         <div className=" items-center gap-5 hidden md:flex">
-          <p className="p-2 rounded-full border border-[#341914] text-[#341914] ">
+          <p className="swiper-button-prev p-2 rounded-full border border-[#341914] text-[#341914] ">
             <FaArrowLeft />
           </p>
-          <p className="p-2 rounded-full border  border-[#341914] text-[#341914]">
+          <p className="swiper-button-next p-2 rounded-full border  border-[#341914] text-[#341914]">
             <FaArrowRight />
           </p>
         </div>
