@@ -5,7 +5,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa6";
 const Footer = () => {
   return (
     <div
-      className=""
+      className="font-valueSanse"
       style={{
         backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(${footerBg})`,
         backgroundSize: "cover",
@@ -21,9 +21,9 @@ const Footer = () => {
           />
         </div>
         <div className="flex justify-center items-center gap-5 md:gap-10 text-white mt-2">
-            <p><a>Terms</a></p>
-            <p><a>Policy</a></p>
-            <p><a>Cookies</a></p>
+            <p><a className="font-valueSanse">Terms</a></p>
+            <p><a className="font-valueSanse">Policy</a></p>
+            <p><a className="font-valueSanse">Cookies</a></p>
         </div>
         <div className="flex justify-center items-center gap-3">
             <span className="text-white text-xl rounded-full p-1 border"><FaLinkedinIn /></span>

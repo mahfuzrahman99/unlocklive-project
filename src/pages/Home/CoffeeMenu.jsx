@@ -12,12 +12,12 @@ const CoffeeMenu = () => {
           <span
             className={`bg-gradient-to-r from-[#fff] to-[#86371C] h-1 w-10 rounded-lg`}
           ></span>
-          <span className="mx-7 text-xs text-[#86371C]">Coffee Menu</span>
+          <span className="mx-7 text-xs text-[#86371C] font-lemonada">Coffee Menu</span>
           <span
             className={`bg-gradient-to-r from-[#86371C] to-[#fff] h-1 w-10 rounded-lg`}
           ></span>
         </h1>
-        <p className="text-2xl font-bold text-center mt-3">
+        <p className="text-2xl font-bold text-center mt-3 font-bakilda">
           Unlocklive Coffee Menu
         </p>
         <div className="md:grid grid-cols-2 gap-3 my-6">

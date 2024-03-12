@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import "../../components/CSS/recipe.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -14,8 +15,16 @@ import Recipe6 from "../../assets/Cookies-1.jpg";
 import Recipe7 from "../../assets/Bakery-1.jpg";
 import Recipe8 from "../../assets/Creation-5.jpeg";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa6";
+import { useRef, useState } from "react";
 
 const NewRecipe = () => {
+
+  const [_, setInit] = useState();
+
+  const prevRef = useRef(null)
+
+  const nextRef = useRef(null)
+
   return (
     <div className="max-w-5xl mx-auto md:grid grid-cols-3 gap-3 ">
       <div className="col-span-1">
@@ -23,12 +32,12 @@ const NewRecipe = () => {
           <span
             className={`bg-gradient-to-r from-[#fff] to-[#86371C] h-[3px] w-10 rounded-lg`}
           ></span>
-          <span className="text-[#86371C] text-xs">New Recipes</span>
+          <span className="text-[#86371C] text-xs font-lemonada">New Recipes</span>
         </p>
-        <p className="text-xl md:text-3xl font-bold my-4">
+        <p className="text-xl md:text-3xl font-bold my-4 font-bakilda">
           Taste Our New Recipe
         </p>
-        <p className="text-xs">
+        <p className="text-xs font-valueSanse">
           Malesuada cursus a tincidunt volutpat posuere lacinia. Congue <br />
           malesuada lacus pharetra ut vel amet. Amet turpis suspendisse
           <br />
@@ -44,18 +53,22 @@ const NewRecipe = () => {
           <br /> slightly believable.
         </p>
         <div className=" items-center gap-5 hidden md:flex">
-          <p className="swiper-button-prev p-2 rounded-full border border-[#341914] text-[#341914] ">
+          <button ref={prevRef} className="swiper-button-prev p-2 rounded-full border border-[#341914] text-[#341914] ">
             <FaArrowLeft />
-          </p>
-          <p className="swiper-button-next p-2 rounded-full border  border-[#341914] text-[#341914]">
+          </button>
+          <button ref={nextRef} className="swiper-button-next p-2 rounded-full border  border-[#341914] text-[#341914]">
             <FaArrowRight />
-          </p>
+          </button>
         </div>
       </div>
       <div className="col-span-2 md:ml-4 rounded-md">
         <Swiper
+          onInit={() => setInit(true)}
           spaceBetween={10}
-          navigation={true}
+          navigation={{
+            prevEl: prevRef.current,
+            nextEl: nextRef.current,
+          }}
           loop={Infinity}
           freeMode={true}
           modules={[FreeMode, Navigation]}

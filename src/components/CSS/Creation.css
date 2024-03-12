@@ -2,26 +2,26 @@
   line-height: 0 !important;
   border: none !important;
 }
+.tab-active {
+  border-radius: 50px !important;
+  border: 2px solid #86371c !important;
+  color: #86371c !important;
+  background-color: #fbf9f8 !important;
+}
 
-/* Small Devices (Mobile) */
 @media (max-width: 768px) {
   .tab {
     height: 30px !important;
     font-weight: 500 !important;
     font-size: 12px !important;
-    padding: 20px 7px !important;
+    padding: 14px 7px !important;
   }
 
   .tab-active {
-    border-radius: 100% !important;
-    border: 2px solid #86371c !important;
-    color: #86371c !important;
-    padding: 20px 7px !important;
-    background-color: #fbf9f8 !important;
+    padding: 14px 7px !important;
   }
 }
 
-/* Large Devices (Desktop) */
 @media (min-width: 1024px) {
   .tab {
     height: 60px !important;
@@ -30,11 +30,7 @@
   }
 
   .tab-active {
-    border-radius: 100% !important;
-    border: 2px solid #86371c !important;
-    color: #86371c !important;
-    padding: 6px 0px !important;
-    background-color: #fbf9f8 !important;
+    padding: 0px 0px !important;
   }
 }
 

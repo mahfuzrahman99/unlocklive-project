@@ -1,5 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=swap");
 
+@font-face {
+  font-family: "abril";
+  src: url("./assets/Abril/Abril_Display_SemiBold.otf") format("woff");
+}
+.abril {
+  font-family: "abril" !important;
+}
 
+@font-face {
+  font-family: "bakilda";
+  src: url("./assets/Bakilda/bakilda-histori.ttf") format("woff");
+}
+.bakilda {
+  font-family: "bakilda" !important;
+}
+@font-face {
+  font-family: "valueSanse";
+  src: url("./assets/Value-Sans-Pro/ValueSansPro-Regular.ttf") format("woff");
+}
+.valueSanse {
+  font-family: "valueSanse" !important;
+}
+
+.PTop {
+  background-image: url("/src/assets/PT.svg");
+  background-position: right top !important;
+  background-repeat: no-repeat !important;
+}

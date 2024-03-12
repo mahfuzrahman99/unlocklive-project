@@ -12,8 +12,8 @@ const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
         />
       </div>
       <div className="col-span-5">
-        <h1 className="text-md md:text-xl font-semibold">{menuTitle}</h1>
-        <p className="text-[9px] md:text-xs">
+        <h1 className="text-md md:text-xl font-semibold font-abril">{menuTitle}</h1>
+        <p className="text-[9px] md:text-xs font-valueSanse">
           There are many variations of passages Lorem <br /> Ipsum form
         </p>
       </div>
@@ -23,7 +23,7 @@ const MenuCards = ({ menuImg, menuTitle, dolorBg, dolorText, BRColor }) => {
       <div className="mt-[7px] flex justify-center">
         <span
         style={{backgroundColor: `${dolorBg}`, color: dolorText }}
-          className={` rounded-full p-1 py-[5px] font-medium text-xs  text-center border-dashed border border-[${BRColor}] `}
+          className={` rounded-full p-1 py-[5px] font-medium text-xs  text-center border-dashed border border-[${BRColor}] font-valueSanse`}
         >
           $10
         </span>

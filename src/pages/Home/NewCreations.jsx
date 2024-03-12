@@ -60,12 +60,12 @@ const NewCreations = () => {
     <div className="text-center">
       <div>
         <div>
-          <p className="text-xs text-[#86371C] mb-1">Showcase</p>
+          <p className="text-xs text-[#86371C] mb-1 font-lemonada">Showcase</p>
           <span className="flex justify-center">
             <span className="bg-gradient-to-r from-[#fff] via-[#86371C] to-[#fff] h-[2px] w-20 rounded-lg"></span>
           </span>
-          <h1 className="text-3xl font-bold my-3">Our Chefs New Creations</h1>
-          <p className="text-xs">
+          <h1 className="text-3xl font-bold my-3 font-bakilda">Our Chefs New Creations</h1>
+          <p className="text-xs font-valueSanse">
             Behold the extraordinary creations born from the synergy of our
             users&apos; ingenuity <br /> and the transformation power of AI, a
             testament to boundless innovation.
@@ -73,7 +73,7 @@ const NewCreations = () => {
         </div>
       </div>
       <div className="mt-10">
-        <div role="tablist" className="tabs tabs-lifted overflow-x-auto "  style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "-moz-scrollbars-none" }}>
+        <div role="tablist" className="tabs tabs-lifted overflow-x-auto  font-valueSanse"  style={{ scrollbarWidth: "none", msOverflowStyle: "none", overflow: "-moz-scrollbars-none" }}>
           <a
             role="tab"
             className={`tab ${activeTab === 1 ? "tab-active" : ""}`}

@@ -6,15 +6,15 @@ import bannerCoffee3 from "../assets/banner-coffee-3.jpg"
 
 const BannerSwiper = ({imgSrc}) => {
     return (
-        <div className=" border-t-2">
-            <div className="md:flex gap-6 items-center ml-6 md:ml-20 border-l-2 pb-4 md:pb-16">
-              <div className="max-w-[550px] space-y-4 pl-6 md:pl-20">
-                <p className="text-[10px] md:text-sm font-bold">WELCOME TO OUR</p>
-                <p className="text-xl md:text-[50px] font-bold">Unlocklive</p>
-                <p className="text-lg md:text-2xl font-bold">
+        <div className=" border-t-2 left ">
+            <div className="md:flex gap-6 items-center ml-6 md:ml-20 border-l-2 pb-4 md:pb-16 right center">
+              <div className="max-w-[550px] space-y-4 pl-6 md:pl-20 ">
+                <p className="text-[10px] md:text-sm font-bold font-lemonada">WELCOME TO OUR</p>
+                <p className="text-xl md:text-[50px] font-bold font-bakilda">Unlocklive</p>
+                <p className="text-lg md:text-2xl font-bold font-bakilda">
                   Elevating Your Coffee Experience
                 </p>
-                <p className="text-xs font-medium">
+                <p className="text-xs font-medium font-valueSanse">
                   Unlocklive embodies our commitment to transforming the simple
                   act of sipping coffee into a refined and memorable journey. At
                   Epicurean, we take pride in curating an exceptional coffee
@@ -22,7 +22,7 @@ const BannerSwiper = ({imgSrc}) => {
                 </p>
                 <div className="flex gap-8 items-center py-6">
                   <div>
-                    <button className="text-white bg-[#86371c] p-2 rounded-md text-[8px] font-bold">
+                    <button className="text-white bg-[#86371c] p-2 rounded-md text-[8px] font-bold font-valueSanse">
                       EXPLORE OUR MENU
                     </button>
                   </div>
